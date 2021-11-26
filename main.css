@@ -4,4 +4,12 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background: #272727;
+  color: #fff;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
 /*# sourceMappingURL=main.css.map */
