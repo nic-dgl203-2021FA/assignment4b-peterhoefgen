@@ -16,6 +16,6 @@ $secondary-color: #ff652f;
         @return #000;
     }
     @else {
-        @return #fff;
+        @return set-text-color($primary-color);
     }
 }
