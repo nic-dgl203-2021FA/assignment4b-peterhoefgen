@@ -7,4 +7,15 @@
     width: 28px;
     cursor: pointer;
     @include transition-ease;
+
+    &_burger {
+        position: absolute;
+        right: 0;
+        top: 0.5rem;
+        width: 28px;
+        height: 3px;
+        background: set-text($primary-color);
+
+        @include transition-ease;
+    }
 }
