@@ -343,6 +343,10 @@
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/img/model-1.jpg") center top;
   background-size: cover;
 }
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2 rem;
+}
 
 body {
   background: #272727;
