@@ -23,6 +23,10 @@
   margin-top: 1rem;
   border-bottom: 2px solid #fff;
 }
+.home_name--last {
+  color: #ff652f;
+  font-weight: 700;
+}
 
 body {
   background: #272727;
