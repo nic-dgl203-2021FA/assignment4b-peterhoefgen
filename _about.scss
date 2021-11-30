@@ -38,5 +38,11 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 2rem;
+
+        &_job {
+            background: lighten($primary-color, 10%);
+            padding: 0.5rem;
+            border-bottom: 5px solid $secondary-color;
+        }
     }
 }

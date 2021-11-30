@@ -205,6 +205,11 @@
   grid-template-columns: 1fr;
   grid-gap: 2rem;
 }
+.about .jobs_job {
+  background: #414141;
+  padding: 0.5rem;
+  border-bottom: 5px solid #ff652f;
+}
 
 body {
   background: #272727;
