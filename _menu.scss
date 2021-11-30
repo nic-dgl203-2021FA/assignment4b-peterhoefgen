@@ -81,5 +81,10 @@
         &.open {
             transform: translateY(0);
         }
+
+        &_item {
+            transform: translateX(100vw);
+            @include transition-ease;
+        }
     }
 }
