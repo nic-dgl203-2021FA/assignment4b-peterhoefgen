@@ -285,6 +285,10 @@
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+.projects_item:hover::after {
+  top: 0;
+  opacity: 0.9;
+}
 .projects .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;

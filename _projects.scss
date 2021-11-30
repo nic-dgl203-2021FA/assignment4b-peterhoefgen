@@ -54,6 +54,13 @@
             opacity: 0;
             @include transition-ease;
         }
+
+        &:hover {
+            &::after {
+                top: 0;
+                opacity: 0.9;
+            }
+        }
     }
 
     .social-icons {
