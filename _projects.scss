@@ -63,6 +63,18 @@
         }
     }
 
+    &_btns {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: center;
+    }
+    
     .social-icons {
         display: flex;
         flex-direction: column;
