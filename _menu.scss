@@ -85,6 +85,14 @@
         &_item {
             transform: translateX(100vw);
             @include transition-ease;
+
+            &.open {
+                transform: translateX(0);
+            }
+
+            &.active > a {
+                color: $secondary-color;
+            }
         }
     }
 }
