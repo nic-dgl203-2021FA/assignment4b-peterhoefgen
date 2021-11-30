@@ -402,7 +402,8 @@
   cursor: pointer;
 }
 .featured_item img {
-  width: 100%;
+  width: 75%;
+  padding-left: 15rem;
 }
 .featured_item::after {
   content: "";
