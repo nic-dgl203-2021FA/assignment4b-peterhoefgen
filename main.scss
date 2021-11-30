@@ -23,3 +23,14 @@ header {
     width: 100%;
     padding: 1rem;
 }
+
+main {
+    height: 100%;
+    width: 100%;
+
+    .social-icons {
+        position: fixed;
+        bottom: 1rem;
+        left: 1rem;
+    }
+}
