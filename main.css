@@ -273,6 +273,18 @@
 .projects_item img {
   width: 100%;
 }
+.projects_item::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #ff652f;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
 .projects .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;

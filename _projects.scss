@@ -42,6 +42,18 @@
         img {
             width: 100%;
         }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: $secondary-color;
+            opacity: 0;
+            @include transition-ease;
+        }
     }
 
     .social-icons {
