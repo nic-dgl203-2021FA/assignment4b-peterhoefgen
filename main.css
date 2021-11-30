@@ -69,6 +69,11 @@
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+.menu-btn_burger.open {
+  -webkit-transform: rotate(720deg);
+          transform: rotate(720deg);
+  background: transparent;
+}
 
 body {
   background: #272727;
