@@ -41,4 +41,7 @@ main .social-icons {
 main .social-icons a {
   padding: 0.4rem;
 }
+main .social-icons a:hover {
+  color: #ff652f;
+}
 /*# sourceMappingURL=main.css.map */
