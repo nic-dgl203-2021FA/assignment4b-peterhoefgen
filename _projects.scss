@@ -34,6 +34,16 @@
    
     }
 
+    &_item {
+        position: relative;
+        border-bottom: 5px solid $secondary-color;
+        overflow: hidden;
+        cursor: pointer;
+        img {
+            width: 100%;
+        }
+    }
+
     .social-icons {
         display: flex;
         flex-direction: column;

@@ -264,6 +264,15 @@
   grid-template-columns: 1fr;
   grid-gap: 2rem;
 }
+.projects_item {
+  position: relative;
+  border-bottom: 5px solid #ff652f;
+  overflow: hidden;
+  cursor: pointer;
+}
+.projects_item img {
+  width: 100%;
+}
 .projects .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
