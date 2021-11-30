@@ -257,30 +257,12 @@
   font-size: 2rem;
   margin-bottom: 2rem;
 }
-.projects_bio {
-  width: 80%;
-  text-align: center;
-}
-.projects_bio .text-secondary {
-  padding-bottom: 1rem;
-}
-.projects .jobs {
+.projects_items {
   width: 60vw;
   margin: 2rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
-}
-.projects .jobs_job {
-  background: #414141;
-  padding: 0.5rem;
-  border-bottom: 5px solid #ff652f;
-}
-.projects .jobs_job h2, .projects .jobs_job h3 {
-  margin: 0.5rem 0;
-}
-.projects .jobs_job h6 {
-  margin: 0.3rem 0;
 }
 .projects .social-icons {
   display: -webkit-box;
