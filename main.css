@@ -302,6 +302,14 @@
           align-items: center;
   text-align: center;
 }
+.projects_btn {
+  opacity: 0;
+  -webkit-column-rule: #000;
+     -moz-column-rule: #000;
+          column-rule: #000;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
 .projects .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
