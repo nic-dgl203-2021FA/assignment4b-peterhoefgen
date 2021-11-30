@@ -56,3 +56,9 @@
         grid-template-columns: repeat(3, 1fr);
     }    
 }
+
+@include media-xl {
+    .projects_bio-image {
+        height: 50vh;
+    }
+}
