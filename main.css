@@ -191,6 +191,20 @@
 .about_bio-image p {
   margin-bottom: 2rem;
 }
+.about_bio {
+  width: 80%;
+  text-align: center;
+}
+.about_bio .text-secondary {
+  padding-bottom: 1rem;
+}
+.about .jobs {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
 
 body {
   background: #272727;
